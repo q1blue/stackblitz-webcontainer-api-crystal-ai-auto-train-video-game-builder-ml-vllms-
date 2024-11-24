@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Alchemist's Transformational Journey</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="components/navigation.css">
+  <link rel="stylesheet" href="components/features.css">
+</head>
+<body>
+  <nav class="main-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="/media/images/logo.png" alt="Alchemist's Journey">
+      </div>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#tech">Technology</a>
+        <a href="#docs">Documentation</a>
+        <a href="#community">Community</a>
+        <a href="https://sdk.alchemistjourney.com" class="sdk-link">SDK Access</a>
+        <button class="play-now-btn">Play Now</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="game-container">
+    <header class="hero-section">
+      <div class="hero-content">
+        <h1>The Alchemist's Transformational Journey</h1>
+        <p class="hero-subtitle">Experience the convergence of alchemy and quantum mechanics in a groundbreaking MMO</p>
+        <div class="cta-buttons">
+          <button class="download-btn">Download Now</button>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </div>
+      <div class="hero-video">
+        <video autoplay muted loop playsinline>
+          <source src="/media/videos/hero-background.webm" type="video/webm">
+          <source src="/media/videos/hero-background.mp4" type="video/mp4">
+        </video>
+      </div>
+    </header>
+
+    <section id="features" class="features-section">
+      <h2>Game Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon unreal-icon"></div>
+          <h3>Unreal Engine 5.5</h3>
+          <p>Powered by the latest UE5.5 with Lumen, Nanite, and MetaHuman integration</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon dlss-icon"></div>
+          <h3>NVIDIA DLSS 3.5</h3>
+          <p>Ray Reconstruction and Frame Generation for ultimate performance</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon web3-icon"></div>
+          <h3>Web3 Integration</h3>
+          <p>Decentralized marketplace and blockchain-verified items</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech" class="tech-section">
+      <h2>Technical Specifications</h2>
+      <div class="tech-details">
+        <div class="tech-card">
+          <h3>Graphics</h3>
+          <ul>
+            <li>NVIDIA DLSS 3.5</li>
+            <li>Ray Tracing</li>
+            <li>NVIDIA Reflex</li>
+            <li>AMD FSR 3.0</li>
+          </ul>
+        </div>
+        <div class="tech-card">
+          <h3>Engine Features</h3>
+          <ul>
+            <li>Unreal Engine 5.5</li>
+            <li>Nanite Virtualized Geometry</li>
+            <li>Lumen Global Illumination</li>
+            <li>MetaHuman Creator</li>
+          </ul>
+        </div>
+        <div class="tech-card">
+          <h3>Online Features</h3>
+          <ul>
+            <li>Dedicated Servers</li>
+            <li>Cross-platform Play</li>
+            <li>Cloud Saves</li>
+            <li>Web3 Integration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media Galleries -->
+    <section class="media-section">
+      <h2>Trailers & Gameplay</h2>
+      <div id="video-gallery" class="gallery-container"></div>
+    </section>
+
+    <section class="media-section">
+      <h2>Screenshots</h2>
+      <div id="screenshot-gallery" class="gallery-container"></div>
+    </section>
+
+    <section class="media-section">
+      <h2>Concept Art</h2>
+      <div id="concept-art-gallery" class="gallery-container"></div>
+    </section>
+    
+    <section id="game-content" class="game-content">
+      <div class="workspace">
+        <div class="elements-container">
+          <h2>Basic Elements</h2>
+          <div id="basic-elements" class="elements"></div>
+        </div>
+        
+        <div class="cauldron-area">
+          <div id="cauldron" class="cauldron">
+            <div class="cauldron-content" id="cauldron-content"></div>
+          </div>
+          <button id="brew" class="brew-btn">Brew Potion</button>
+        </div>
+        
+        <div class="discoveries">
+          <h2>Discoveries</h2>
+          <div id="discovered-items" class="discovered-items"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Documentation</h3>
+          <a href="/docs/api">API Reference</a>
+          <a href="/docs/sdk">SDK Guide</a>
+          <a href="/docs/mods">Modding Guide</a>
+        </div>
+        <div class="footer-section">
+          <h3>Community</h3>
+          <a href="/forum">Forums</a>
+          <a href="/discord">Discord</a>
+          <a href="/wiki">Wiki</a>
+        </div>
+        <div class="footer-section">
+          <h3>Support</h3>
+          <a href="/support">Help Center</a>
+          <a href="/tickets">Submit Ticket</a>
+          <a href="/status">Server Status</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="components/MediaGallery.js"></script>
+  <script src="components/Navigation.js"></script>
+  <script src="components/Features.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

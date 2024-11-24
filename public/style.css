@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cinzel', serif;
+  background: #1a1a2e;
+  color: #e2e2e2;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.game-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: #ffd700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* Media Gallery Styles */
+.media-section {
+  margin: 4rem 0;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.video-item, .screenshot-item, .concept-art-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.video-item:hover, .screenshot-item:hover, .concept-art-item:hover {
+  transform: translateY(-5px);
+}
+
+.video-item img, .screenshot-item img, .concept-art-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.video-item h3, .screenshot-info h3, .concept-info h3 {
+  padding: 1rem;
+  color: #ffd700;
+}
+
+.screenshot-info p, .concept-info p {
+  padding: 0 1rem 1rem;
+  font-size: 0.9rem;
+  color: #a0a0a0;
+}
+
+.play-btn {
+  background: #ffd700;
+  border: none;
+  padding: 0.5rem 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+  transition: background 0.3s ease;
+}
+
+.play-btn:hover {
+  background: #ffed4a;
+}
+
+.video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.modal-content iframe {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
+}
+
+.close-modal {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Existing styles remain unchanged */

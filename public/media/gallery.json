@@ -1,0 +1,36 @@
+{
+  "screenshots": [
+    {
+      "id": "quantum-1",
+      "title": "Quantum Particle Simulation",
+      "url": "/media/images/quantum-particles.jpg",
+      "description": "Real-time quantum particle simulation visualization"
+    },
+    {
+      "id": "crystal-1",
+      "title": "Crystalline Structure",
+      "url": "/media/images/crystal-structure.jpg",
+      "description": "Navigate through complex crystalline formations"
+    },
+    {
+      "id": "ai-matrix-1",
+      "title": "AI Entity Interaction",
+      "url": "/media/images/ai-interaction.jpg",
+      "description": "Advanced AI entities responding to user input"
+    }
+  ],
+  "concept_art": [
+    {
+      "id": "concept-1",
+      "title": "Quantum Realm Concept",
+      "url": "/media/images/quantum-concept.jpg",
+      "description": "Early concept art of the Quantum Realm"
+    },
+    {
+      "id": "concept-2",
+      "title": "Crystal World Design",
+      "url": "/media/images/crystal-concept.jpg",
+      "description": "Crystalline dimension environmental design"
+    }
+  ]
+}

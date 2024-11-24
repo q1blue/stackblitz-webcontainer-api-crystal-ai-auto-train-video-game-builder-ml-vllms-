@@ -1,0 +1,30 @@
+{
+  "trailers": [
+    {
+      "id": "quantum-trailer",
+      "title": "Quantum Realm Cinematic Trailer",
+      "url": "https://player.vimeo.com/video/123456789",
+      "thumbnail": "/media/images/quantum-trailer-thumb.jpg"
+    },
+    {
+      "id": "crystal-trailer",
+      "title": "Crystalline Dimension Preview",
+      "url": "https://player.vimeo.com/video/987654321",
+      "thumbnail": "/media/images/crystal-trailer-thumb.jpg"
+    }
+  ],
+  "gameplay": [
+    {
+      "id": "gameplay-quantum",
+      "title": "Quantum Realm Gameplay",
+      "url": "https://player.vimeo.com/video/456789123",
+      "thumbnail": "/media/images/gameplay-quantum-thumb.jpg"
+    },
+    {
+      "id": "gameplay-ai",
+      "title": "AI Matrix Interaction Demo",
+      "url": "https://player.vimeo.com/video/321654987",
+      "thumbnail": "/media/images/gameplay-ai-thumb.jpg"
+    }
+  ]
+}
